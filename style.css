@@ -1,4 +1,4 @@
-/* Make body text white on dark background */
+
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -6,7 +6,6 @@ body {
     background-color: #0a0a0a;
 }
 
-/* Container with some padding and center alignment */
 .container {
     max-width: 700px;
     margin: 40px auto;
@@ -14,10 +13,9 @@ body {
     text-align: center;
 }
 
-/* Lore box styling */
 .lore {
     text-align: left;
-    background: #121212cc; /* semi-transparent black */
+    background: #121212cc; 
     padding: 20px;
     border-radius: 12px;
     margin-top: 30px;
@@ -30,7 +28,7 @@ body {
         margin-bottom: 15px;
     }
 
-/* Canvas behind all content */
+
 #background {
     position: fixed;
     top: 0;
