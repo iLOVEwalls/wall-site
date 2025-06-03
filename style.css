@@ -1,0 +1,42 @@
+/* Make body text white on dark background */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #00ff99;
+    background-color: #0a0a0a;
+}
+
+/* Container with some padding and center alignment */
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Lore box styling */
+.lore {
+    text-align: left;
+    background: #121212cc; /* semi-transparent black */
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 30px;
+    line-height: 1.6;
+    box-shadow: 0 0 15px #00ff99aa;
+}
+
+    .lore h2 {
+        color: #00ff99;
+        margin-bottom: 15px;
+    }
+
+/* Canvas behind all content */
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    background-color: #0a0a0a;
+}
